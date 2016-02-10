@@ -15,6 +15,23 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/helloworld',function(){
+    return 'Hello World!';
+});
+
+Route::get('hello', function () {
+    return view('hello', ['name' => 'Daigo']);
+});
+
+Route::get('hello/{name?}', function ($name = null) {
+    return view('hello', ['name' => $name]);
+});
+
+Route::get('helloCon', 'Hello@index');
+
+Route::get('/helloCon/{name}', 'Hello@show');
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

@@ -1,15 +1,20 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css" >
-        <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet" type="text/css" >
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
+@extends('layouts.master')
+
+@section('title', 'Laravel 5')
+
+@section('sidebar')
+    @parent
+
+    <p>This is appended to the master sidebar.</p>
+@endsection
+
+@section('content')
+    <div class="container">
+        <div class="content">
+            <div class="title">Laravel 5</div>
         </div>
-    </body>
-</html>
+    </div>
+@endsection
+
+        
+
