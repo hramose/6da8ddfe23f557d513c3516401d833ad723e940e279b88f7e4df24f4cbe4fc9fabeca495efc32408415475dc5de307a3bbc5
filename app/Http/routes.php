@@ -11,6 +11,7 @@
 |
 */
 
+//rutas dinamicas
 Route::get('/', function () {
     return view('welcome');
 });
@@ -23,10 +24,22 @@ Route::get('hello', function () {
     return view('hello', ['name' => 'Daigo']);
 });
 
+
+
+Route::get('/principal',function(){
+    return 'Bienvenido!';
+});
+
+Route::get('paginaprincipal', function () {
+    return view('paginaprincipal', ['name' => 'Junior']);//retorna la vista vienvenido
+});
+
+
+
+//rutas para controladores
 Route::get('hello/{name?}', function ($name = null) {
     return view('hello', ['name' => $name]);
 });
-
 Route::get('helloCon', 'Hello@index');
 
 Route::get('/helloCon/{name}', 'Hello@show');
