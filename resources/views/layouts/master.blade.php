@@ -6,16 +6,15 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css" >
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
-        <link href="{{URL::asset('css/materialize.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <!--Import custom css-->
-        <link href="{{URL::asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+        <link href="{{URL::asset('css/materialize.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-        <!--meta name="theme-color" content="#2196F3"-->
+        
 
-
-        <!--Let browser know website is optimized for mobile-->
+        <link href="{{URL::asset('css/style.css')}}" type="text/css" rel="stylesheet" >
+        <link href="{{URL::asset('css/font-awesome.min.css')}}" type="text/css" rel="stylesheet" >
+        <script src="{{URL::asset('js/moderniszr.js')}}"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
@@ -28,11 +27,8 @@
     <div class="loader-section section-right"></div>
  
 </div>
-        <!--div class="container">
-            @yield('content')
-        </div-->
 
-<!--Navigation-->
+<!--Nab-->
  <div class="navbar-fixed darken-3">
     <nav id="nav_f" class="default_color blue darken-3" role="navigation">
         <div class="container">
@@ -48,7 +44,9 @@
         </div>
     </nav>
 </div>
-<!--Hero-->
+
+
+<!--slogan dinamico-->
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h3 class="text_h center header cd-headline letters type">
@@ -60,8 +58,9 @@
             </span>
         </h3>
     </div>
-</div>
-<!--intro-->
+</div> 
+
+
 <div id="intro" class="section scrollspy">
     <div class="container">
         <div class="row">
@@ -93,6 +92,12 @@
         </div>
     </div>
 </div>
+
+
+<!--div class="container">
+   @yield('content')
+   </div-->
+<!--intro-->
 
 <!--Work-->
 <div class="section scrollspy" id="work">
