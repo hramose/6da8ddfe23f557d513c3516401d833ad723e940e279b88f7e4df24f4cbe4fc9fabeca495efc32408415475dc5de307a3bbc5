@@ -4,8 +4,11 @@
 
 
 @section('content')
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorem neque sed, odio alias accusamus ut, ipsa, quasi fuga, rem a earum culpa error id. Aliquam maiores, doloremque dolorum optio?
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorem neque sed, odio alias accusamus ut, ipsa, quasi fuga, rem a earum culpa error id. Aliquam maiores, doloremque dolorum optio?
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorem neque sed, odio alias accusamus ut, ipsa, quasi fuga, rem a earum culpa error id. Aliquam maiores, doloremque dolorum optio?
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorem neque sed, odio alias accusamus ut, ipsa, quasi fuga, rem a earum culpa error id. Aliquam maiores, doloremque dolorum optio?
+<div class="container">
+	<div class="wrapper">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus illo ut at itaque necessitatibus quo. Perspiciatis delectus, beatae unde voluptate eveniet id alias optio reiciendis expedita corporis, reprehenderit aliquid soluta?
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, inventore, aliquid libero sapiente perferendis quis placeat velit natus molestias illo vel animi. Voluptatibus quia reprehenderit sint, at, tempora laboriosam nobis!
+	</div>
+	
+</div>
 @endsection

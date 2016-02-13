@@ -27,6 +27,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
+//loginojos
+Route::get('/ojoslogin', function () {
+    return view('ojoslogin');
+});
 
 
 

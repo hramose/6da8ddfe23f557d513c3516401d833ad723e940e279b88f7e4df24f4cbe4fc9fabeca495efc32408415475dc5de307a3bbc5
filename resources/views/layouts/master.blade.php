@@ -6,7 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css" >
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
-        <link href="{{URL::asset('css/materialize.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/
+        <link href="{{URL::asset('css/materialize.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <!--meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/-->
@@ -79,7 +79,7 @@
                             <label for="icon_business" class="white-text">Represento a</label>
                         </div>
                         <div class="input-field col s6">
-                            <i class="mdi-communication-business prefix white-text"></i>
+                            <i class="mdi-action-announcement   prefix white-text"></i>
                             <input id="icon_business" type="text" class="validate white-text">
                             <label for="icon_business" class="white-text">Asunto </label>
                         </div>
