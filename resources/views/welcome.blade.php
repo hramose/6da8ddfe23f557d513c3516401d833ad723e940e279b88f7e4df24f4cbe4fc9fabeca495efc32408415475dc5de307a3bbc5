@@ -23,7 +23,7 @@
 
         <div class="row">
             <div  class="col s12">
-                <h2 class="center header text_h2"> Prestacion de  <span class="span_h2"> servicios médicos </span> a distancia mediante el adecuado manejo de lo mejor en <span class="span_h2"> tecnologías de la información y las comunicaciones </span>
+                <h2 class="center header text_h3 light-gray"> Prestacion de  <span class="span_h3"> servicios médicos </span> a distancia mediante el adecuado manejo de lo mejor en <span class="span_h2"> tecnologías de la información y las comunicaciones </span>
             </div>
 			<div class="row">
 				<div  class="col s12">
@@ -32,7 +32,7 @@
 
             <div  class="col s12 m4 l4">
                 <div class="center promo promo-example">
-                    <i class="mdi-image-flash-on"></i>
+                    <i class="mdi-social-group"></i>
                     <h5 class="promo-caption"> Mision </h5>
                     <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                 </div>
@@ -46,7 +46,7 @@
             </div>
             <div class="col s12 m4 l4">
                 <div class="center promo promo-example">
-                    <i class="mdi-hardware-desktop-windows"></i>
+                    <i class="mdi-social-group"></i>
                     <h5 class="promo-caption">Objetivos</h5>
                     <p class="light center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                 </div>

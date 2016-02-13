@@ -12,9 +12,50 @@
 */
 
 //rutas dinamicas
+//----------
+//principal
 Route::get('/', function () {
     return view('welcome');
 });
+
+//streaming
+Route::get('/streaming', function () {
+    return view('streaming');
+});
+//login
+Route::get('/login', function () {
+    return view('login');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Route::get('/helloworld',function(){
     return 'Hello World!';
