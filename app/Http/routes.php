@@ -27,18 +27,48 @@ Route::get('/login', function () {
     return view('login');
 });
 
-//loginojos
+//loginojos en construccion
 Route::get('/ojoslogin', function () {
     return view('ojoslogin');
 });
 
+//infomacion oftalmorojas en construccion
+//redirige al portal de la compañia
+Route::get('/oftalmorojas', function () {
+    return view('oftalmorojas');
+});
+
+//login telemedicina
+Route::get('/loginTelemedicina', function () {
+    return view('loginTelemedicina');
+});
+
+//telechat
+Route::get('/telechat', function () {
+    return view('telechat');
+});
+
+//login telechat
+Route::get('/logintelechat', function () {
+    return view('logintelechat');
+});
 
 
+//Telemedicina panel de control paciente
+Route::get('/tlmdpcpaciente', function () {
+    return view('tlmdpcpaciente');
+});
+
+//Telemedicina panel de control medico
+Route::get('/tlmdpcmedico', function () {
+    return view('tlmdpcmedico');
+});
 
 
-
-
-
+//Telemedicina panel de control organizacion
+Route::get('/tlmdpcorganizacion', function () {
+    return view('tlmdpcorganizacion');
+});
 
 
 

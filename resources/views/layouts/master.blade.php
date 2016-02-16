@@ -9,27 +9,29 @@
         <link href="{{URL::asset('css/materialize.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <!--meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/-->
         
         <link href="{{URL::asset('css/style.css')}}" type="text/css" rel="stylesheet" >
         <link href="{{URL::asset('css/font-awesome.min.css')}}" type="text/css" rel="stylesheet" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body>
 
+        <script>
+          window.liveSettings = {
+            api_key: "a0b49b34b93844c38eaee15690d86413",
+            picker: "bottom-right",
+            detectlang: true,
+            dynamic: true,
+            autocollect: true
+          };
+        </script>
+    </head>
+
+<body>
 <!-- Pre Loader -->
 <div id="loader-wrapper">
     <div id="loader"></div>
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
 </div>
-
-<!--animacion ojo-->
-<div class='skin'>
-    <div class='eye'>
-    <div>
-<div>
-
 
 <!--Nab-->
  <div class="navbar-fixed darken-3">
@@ -123,6 +125,7 @@
             Hecho para <a class="white-text" href="#">Telemedicina - Wanka</a>.
         </div>
     </div>
+
 </footer>
 
     <!--  Scripts-->
@@ -130,5 +133,5 @@
     <script src="{{URL::asset('js/moderniszr.js')}}"></script>
     <script src="{{URL::asset('js/materialize.js')}}"></script>
     <script src="{{URL::asset('js/init.js')}}"></script>
-    </body>
+</body>
 </html>
