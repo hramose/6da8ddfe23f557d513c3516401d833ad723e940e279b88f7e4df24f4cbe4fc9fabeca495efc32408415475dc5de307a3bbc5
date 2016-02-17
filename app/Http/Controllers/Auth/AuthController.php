@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\User;
+use App\Data\Models\User;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -29,6 +29,21 @@ class AuthController extends Controller
      * @var string
      */
     protected $redirectTo = '/home';
+    protected $maxLoginAttempts = 5;
+    protected $username = 'usr_username';
+    //protected $loginView = 'login';
+    /**
+     * Handle an authentication attempt.
+     *
+     * @return Response
+     */
+    public function authenticate()
+    {
+        if (Auth::attempt(['usr_email' => $email, 'usr_password' => $password])) {
+            // Authentication passed...
+            return redirect()->intended('helloworld');
+        }
+    }
 
     /**
      * Create a new authentication controller instance.
