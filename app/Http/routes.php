@@ -31,7 +31,9 @@ Route::get('/login', function () {
 Route::get('/ojoslogin', function () {
     return view('ojoslogin');
 });
-
+Route::get('/registrar', function () {
+    return view('formregistrar');
+});
 
 
 
