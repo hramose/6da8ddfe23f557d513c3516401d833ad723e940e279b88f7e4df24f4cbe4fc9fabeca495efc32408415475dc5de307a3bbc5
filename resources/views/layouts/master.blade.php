@@ -24,37 +24,38 @@
     <div class="loader-section section-right"></div>
 </div>
 
-<!--animacion ojo-->
-<div class='skin'>
-    <div class='eye'>
-    <div>
-<div>
-
-
-<!--Nab-->
- <div class="navbar-fixed darken-3">
-    <nav id="nav_f" class="default_color default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo">Telemedicina</a>
-            <ul id="nav-mobile" class="right side-nav">
-                 <li><a href="#telemedicina">Telemedicina?</a></li>
+<!-- HEAD-->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper default_color">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#telemedicina">Telemedicina?</a></li>
                  <li><a href="#mision">Mision</a></li>
                 <li><a href="#vision">Vision</a></li>
                 <li><a href="#invitacion">Sobre mi</a></li>
                 <li><a href="#invitacion">Solicitar Invitacion</a></li>
                 <li><a href="#auspiciador">Auspiciadores</a></li>
-            </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </div>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#telemedicina">Telemedicina?</a></li>
+                 <li><a href="#mision">Mision</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#invitacion">Sobre mi</a></li>
+                <li><a href="#invitacion">Solicitar Invitacion</a></li>
+                <li><a href="#auspiciador">Auspiciadores</a></li>
+        </ul>
+      </div>
     </nav>
-</div>
+  </div>
+<!--fun head
+
 
 <!--Contenido de las demas paginas-->
 <div>
    @yield('content')
 </div>
-
-
 
 <!--Footer-->
 <footer id="contact" class="page-footer  default_color scrollspy">

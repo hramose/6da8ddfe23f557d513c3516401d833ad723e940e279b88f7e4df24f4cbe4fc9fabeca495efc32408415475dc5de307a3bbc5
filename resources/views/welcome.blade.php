@@ -64,8 +64,13 @@
     
 <!--Work-->
 <div class="section scrollspy" id="work">
+
+    <div class="container center">
+        <h2 class="header text_b">Nuestros servicios </h2>
+
     <div class="container">
         <h2 class="header text_b">Quienes participan? </h2>
+
         <div class="row">
             <div class="col s12 m4 l4">
                 <div class="card">
@@ -202,7 +207,7 @@
 
 <!--Team-->
 <div class="section scrollspy" id="auspiciador">
-    <div class="container">
+    <div class="container center">
         <h2 class="header text_b"> Auspiciadores </h2>
         <div class="row">
             <div class="col s12 m4 l3">
