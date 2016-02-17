@@ -8,7 +8,7 @@
 <h2 class="container">
 	<div class="row">
 		<div class="col s12 m12 12">
-			<h2>Oftalmologica rojas</h2>
+			<h2>Sobre la Organizacion</h2>
 		</div>
 	</div>
 </h2>
@@ -44,9 +44,73 @@
     </div>
 </div>
 
+<!--Servicios-->
 <h2 class="container">
 	<div class="row">
 		<h3>Que ofrecemos?</h3>
+	</div>
+</h2>
+<div id="intro" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+					<div class="card">
+		            <div class="card-image">
+		              <img src="images/sample-1.jpg">
+		              <span class="card-title">Card Title</span>
+		            </div>
+		            <div class="card-content">
+		              <p>I am a very simple card. I am good at containing small bits of information.
+		              I am convenient because I require little markup to use effectively.</p>
+		            </div>
+		            <div class="card-action">
+		              <a href="#">This is a link</a>
+		            </div>
+		          </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+					<div class="card">
+		            <div class="card-image">
+		              <img src="images/sample-1.jpg">
+		              <span class="card-title">Card Title</span>
+		            </div>
+		            <div class="card-content">
+		              <p>I am a very simple card. I am good at containing small bits of information.
+		              I am convenient because I require little markup to use effectively.</p>
+		            </div>
+		            <div class="card-action">
+		              <a href="#">This is a link</a>
+		            </div>
+		          </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="center promo promo-example">
+		          <div class="card">
+		            <div class="card-image">
+		              <img src="images/sample-1.jpg">
+		              <span class="card-title">Card Title</span>
+		            </div>
+		            <div class="card-content">
+		              <p>I am a very simple card. I am good at containing small bits of information.
+		              I am convenient because I require little markup to use effectively.</p>
+		            </div>
+		            <div class="card-action">
+		              <a href="#">This is a link</a>
+		            </div>
+		          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="container">
+	<div class="row">
+		<h3>Staff medico de la clinica</h3>
 	</div>
 </h2>
 
