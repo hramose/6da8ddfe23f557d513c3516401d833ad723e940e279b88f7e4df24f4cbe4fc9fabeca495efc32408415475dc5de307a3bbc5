@@ -35,31 +35,15 @@ Route::get('/registrar', function () {
     return view('formregistrar');
 });
 
+//panel de contrrol sorganizacion
 Route::get('/oftalmorojas', function () {
     return view('oftalmorojas');
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//panel de contro paciente
+Route::get('/pcpaciente', function () {
+    return view('pnlcntrlpcnte');
+});
 
 
 
