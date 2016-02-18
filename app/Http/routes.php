@@ -35,6 +35,10 @@ Route::get('/registrar', function () {
     return view('formregistrar');
 });
 
+Route::get('/oftalmorojas', function () {
+    return view('oftalmorojas');
+});
+
 
 
 

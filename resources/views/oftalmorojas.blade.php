@@ -58,7 +58,7 @@
 <!--Staff Medico-->
 <h2 class="container">
 	<div class="row center">
-		<h3>Creditos</h3>
+		<h3>Quienes estan detras?</h3>
 	</div>
 </h2>
 <div id="intro" class="section scrollspy">

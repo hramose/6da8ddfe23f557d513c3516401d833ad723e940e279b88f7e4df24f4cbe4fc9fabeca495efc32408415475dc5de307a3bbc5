@@ -7,8 +7,9 @@
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h3 class="text_h center header cd-headline letters type">
-            <span>Pensando en </span> 
-            <span class="cd-words-wrapper waiting">
+            <span class="sise">Pensando en </span> 
+            </br>
+            <span class="sise cd-words-wrapper waiting">
                 <b class="is-visible">tu salud</b>
                 <b>tu bienestar</b>
                 <b>tus ojos</b>
@@ -23,7 +24,8 @@
 
         <div class="row">
             <div  class="col s12">
-                <h2 class="center header text_h3 light-gray"> Prestacion de  <span class="span_h3"> servicios médicos </span> a distancia mediante el adecuado manejo de lo mejor en <span class="span_h2"> tecnologías de la información y las comunicaciones </span>
+                <h2 class="center color sise"> Prestacion de  <span class="sise span_h3"> servicios médicos </span> a distancia mediante el adecuado manejo de lo mejor en <span class="span_h2"> tecnologías de la información y las comunicaciones </span>
+                </h2>
             </div>
 			<div class="row">
 				<div  class="col s12">
@@ -200,10 +202,9 @@
  <!--Parallax-->
 <div class="parallax-container">
     <div class="parallax">
-        <img class="activator" src="{{URL::asset('img/IMG_2704_stitch.jpg')}}">
+        <img class="activator" src="{{URL::asset('img/wanka - copia.jpg')}}">
     </div>
 </div>
-
 
 <!--Team-->
 <div class="section scrollspy" id="auspiciador">
