@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Telemedicina - @yield('title')</title>
-        <title>Telemedicina - Portal Web</title>
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css" >
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
@@ -33,8 +32,6 @@
       <li class="divider"></li>
       <li><a href="#!">Biblioteca especializada</a></li>
     </ul>
-
-
 
     <nav>
       <div class="nav-wrapper default_color">
