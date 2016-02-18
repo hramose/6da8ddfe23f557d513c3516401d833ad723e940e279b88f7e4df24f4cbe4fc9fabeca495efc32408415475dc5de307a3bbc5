@@ -151,12 +151,12 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Ayuda</h5>
-            <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis culpa fugit alias, ex modi non, laboriosam nesciunt vitae pariatur, deleniti iste dicta delectus distinctio itaque consequatur? Consectetur nostrum cumque, mollitia!</p>
+            <h5 class="white-text">Help Materialize Grow</h5>
+            <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
           </div>
           <div class="col l6 s12">
-            <h5 class="white-text">Ayuda2</h5>
-            <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perspiciatis, cumque officiis assumenda iure non saepe soluta modi nisi ex excepturi tenetur dignissimos nesciunt corrupti, sequi laboriosam, pariatur possimus. Aliquid.</p>
+            <h5 class="white-text">Join the Discussion</h5>
+            <p class="grey-text text-lighten-4">We have a Gitter chat room set up where you can talk directly with us. Come in and discuss new features, future goals, general problems or questions, or anything else you can think of.</p>
           </div>
         </div>
       </div>

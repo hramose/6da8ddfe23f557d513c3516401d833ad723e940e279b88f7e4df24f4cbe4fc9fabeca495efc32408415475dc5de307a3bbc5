@@ -14,7 +14,7 @@
 
 <!--contenido del panel-->
 <div class="row">
-	<div class="container col l12 m12 s12">
+	<div class="container">
 		  <table class="centered responsive-table">
 		    <thead>
 		      <tr>
