@@ -138,11 +138,6 @@
         <img class="activator" src="{{URL::asset('img/wanka - copia.jpg')}}">
     </div>
 </div>
-
-
-
-
-
 <!--Sobre la empresa-->
 <h2 class="container">
 	<div class="row center">
