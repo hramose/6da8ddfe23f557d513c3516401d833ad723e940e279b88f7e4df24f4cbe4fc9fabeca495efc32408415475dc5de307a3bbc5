@@ -3,4 +3,4 @@
 Homestead.yaml
 Homestead.json
 .env
-/app/http/routes.php
+/app/Http/routes.php

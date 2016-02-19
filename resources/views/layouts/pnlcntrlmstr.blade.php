@@ -12,7 +12,7 @@
     <link href="{{URL::asset('css/ghpages-materialize.css')}}" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--script>
+    <script>
       window.liveSettings = {
         api_key: "a0b49b34b93844c38eaee15690d86413",
         picker: "bottom-right",
@@ -20,7 +20,7 @@
         dynamic: true,
         autocollect: true
       };
-    </script-->
+    </script>
     <script src="//cdn.transifex.com/live.js"></script>
   </head>
 
@@ -127,26 +127,23 @@
     </header>
 
     <main>
-    <div class="container">
+      <div class="container">
 
-    <div class="row">
-      <div class="col s12 m12 l12">
+        <div class="row">
+          <div class="col s12 m12 l12">
 
-        <!--  Collections Section  -->
-        <div id="basic" class="section scrollspy">
-              <div class="row">
-                 @yield('content')
-              </div>
+            <!--  Collections Section  -->
+            <div id="basic" class="section scrollspy">
+                  <div class="row">
+                     @yield('content')
+                  </div>
+            </div>
+            <!-- End collections -->
+          </div>
         </div>
-        <!-- End collections -->
-
-
       </div>
-    </div>
-</div>
-
-
     </main>    
+
     <footer class="page-footer blue darken-2">
       <div class="container">
         <div class="row">
@@ -162,20 +159,19 @@
       </div>
       <div class="footer-copyright">
         <div class="container">
-        Telemedicina Wanka
-        <a class="grey-text text-lighten-4 right" href="">Basado en Materialize 2016</a>
+          Telemedicina Wanka
+          <a class="grey-text text-lighten-4 right" href="">Basado en Materialize 2016</a>
         </div>
       </div>
     </footer>
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script>if (!window.jQuery) { document.write('<script src="bin/jquery-2.1.1.min.js"><\/script>'); }
-    </script>
+    <script>if (!window.jQuery) { document.write('<script src="bin/jquery-2.1.1.min.js"><\/script>'); }</script>
     <script src="{{URL::asset('js/jquery.timeago.min.js')}}"></script>
     <script src="{{URL::asset('js/prism.js')}}"></script>
     <script src="{{URL::asset('jade/lunr.min.js')}}"></script>
     <script src="{{URL::asset('jade/search.js')}}"></script>
-    <script src="{{URL::asset('bin/materialize.js')}}"></script>
+    <script src="{{URL::asset('js/materialize.js')}}"></script>
     <script src="{{URL::asset('js/init.js')}}"></script>
   </body>
 </html>

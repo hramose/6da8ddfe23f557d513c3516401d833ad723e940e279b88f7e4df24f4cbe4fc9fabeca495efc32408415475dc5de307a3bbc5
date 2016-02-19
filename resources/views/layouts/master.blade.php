@@ -156,14 +156,10 @@
 
    <!--  Scripts-->
     <script>
-        
-    </script>
-    <script>
         $(".button-collapse").sideNav();      
         $(".dropdown-button").dropdown(); 
     </script>
-    <script gapi_processed="true" src="https://apis.google.com/js/platform.js" async="" defer="">
-    </script>
+    <script gapi_processed="true" src="https://apis.google.com/js/platform.js" async="" defer=""></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="{{URL::asset('js/moderniszr.js')}}"></script>
     <script src="{{URL::asset('js/materialize.js')}}"></script>
