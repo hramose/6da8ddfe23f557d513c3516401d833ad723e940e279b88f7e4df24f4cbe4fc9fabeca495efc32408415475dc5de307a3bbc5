@@ -17,25 +17,25 @@ class UserTableSeeder extends Seeder
     	User::create(array(
 	        'usr_firstName'	=> 'Daigo',
 	        'usr_lastName'	=> 'Fernandez',
-	        'usr_username'	=> 'dfernandez',
-	        'usr_email'    	=> 'dfernandez@digitalgames.tk',
-	        'usr_password' 	=> bcrypt('@Daigo@10#'), //Hash::make
+	        'username'	=> 'dfernandez',
+	        'email'    	=> 'dfernandez@digitalgames.tk',
+	        'password' 	=> bcrypt('@Daigo@10#'), //Hash::make
     	));
 
     	User::create(array(
 	        'usr_firstName'	=> 'Junior',
 	        'usr_lastName'	=> 'Yauricasa',
-	        'usr_username'	=> 'jyauricasa',
-	        'usr_email'    	=> 'jyauricasa@digitalgames.tk',
-	        'usr_password' 	=> bcrypt('@Junior@10#'), //Hash::make
+	        'username'	=> 'jyauricasa',
+	        'email'    	=> 'jyauricasa@digitalgames.tk',
+	        'password' 	=> bcrypt('@Junior@10#'), //Hash::make
     	));
 
     	User::create(array(
 	        'usr_firstName'	=> 'Galia',
 	        'usr_lastName'	=> 'Camayo',
-	        'usr_username'	=> 'gcamayo',
-	        'usr_email'    	=> 'gcamayo@digitalgames.tk',
-	        'usr_password' 	=> bcrypt('@Galia@10#'), //Hash::make
+	        'username'	=> 'gcamayo',
+	        'email'    	=> 'gcamayo@digitalgames.tk',
+	        'password' 	=> bcrypt('@Galia@10#'), //Hash::make
     	));
 
     	/*

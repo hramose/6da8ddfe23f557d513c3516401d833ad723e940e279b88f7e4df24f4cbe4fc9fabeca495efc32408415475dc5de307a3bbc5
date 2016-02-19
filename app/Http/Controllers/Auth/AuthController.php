@@ -29,8 +29,9 @@ class AuthController extends Controller
      * @var string
      */
     protected $redirectTo = '/home';
+    //protected $redirectAfterLogout = "/";
     protected $maxLoginAttempts = 5;
-    protected $username = 'usr_username';
+    protected $username = 'username';
     //protected $loginView = 'login';
     /**
      * Handle an authentication attempt.
@@ -64,8 +65,10 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
+            'usr_firstName' => 'required|max:32',
+            'usr_lastName' => 'required|max:32',
+            'username' => 'required|max:10|unique:tbl_users',
+            'email' => 'required|email|max:256|unique:tbl_users',
             'password' => 'required|confirmed|min:6',
         ]);
     }
@@ -79,7 +82,9 @@ class AuthController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
+            'usr_firstName' => $data['firstname'],
+            'usr_lastName' => $data['lastname'],
+            'username' => $data['username'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
