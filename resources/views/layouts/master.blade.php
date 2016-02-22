@@ -8,8 +8,6 @@
         <link href="{{URL::asset('css/materialize.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <!--script>
               window.liveSettings = {
                 api_key: "a0b49b34b93844c38eaee15690d86413",
@@ -155,18 +153,17 @@
 </footer>
 
    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script gapi_processed="true" src="https://apis.google.com/js/platform.js" async="" defer=""></script>
     <script>
         $(".button-collapse").sideNav();      
         $(".dropdown-button").dropdown(); 
     </script>
-    <script gapi_processed="true" src="https://apis.google.com/js/platform.js" async="" defer=""></script>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="{{URL::asset('js/moderniszr.js')}}"></script>
+    <script src="{{URL::asset('js/jquery.timeago.min.js')}}"></script>
+    <script src="{{URL::asset('js/modernizr.js')}}"></script>
     <script src="{{URL::asset('js/materialize.js')}}"></script>
     <script src="{{URL::asset('js/init.js')}}"></script>
-    <script src="js/jquery.timeago.min.js"></script>
-    <script src="js/prism.js"></script>
-    <script src="jade/lunr.min.js"></script>
-    <script src="jade/search.js"></script>
-    <script src="js/init.js"></script>
+    <script src="{{URL::asset('js/prism.js')}}"></script>
+    <!--script src="{{URL::asset('jade/lunr.min.js')}}"></script>
+    <script src="{{URL::asset('jade/search.js')}}"></script-->
 </body>
