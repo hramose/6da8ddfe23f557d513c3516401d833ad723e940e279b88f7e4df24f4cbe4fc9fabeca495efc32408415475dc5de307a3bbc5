@@ -18,12 +18,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('welcome', function () {
+    return view('welcome');
+});
+
 //streaming
-Route::get('/streaming', function () {
-    return view('streaming');
+Route::get('streaming', function () {
+    return view('pnlcntrlstreaming');
 });
 //login
-Route::get('/login', function () {
+Route::get('/mylogin', function () {
     return view('login');
 });
 

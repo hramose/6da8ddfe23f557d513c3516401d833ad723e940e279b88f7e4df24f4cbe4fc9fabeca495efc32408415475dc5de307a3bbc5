@@ -13,6 +13,11 @@
     padding: 0 15px;
 }
 
+p{
+    font-size: 17px;
+    color: #878787;
+}
+
 #intro, #work, #team {padding-top: 4rem;}
 
 
@@ -30,7 +35,7 @@
 
 .text_h {
     padding: 15% 0;
-    font-size: 6.0em;
+    /*font-size: 6.0em;*/
     font-weight: 100;
     color:white;
 }
@@ -46,7 +51,7 @@
     letter-spacing: 7px;
 }
 
-.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;color: gray;}
 
 .span_h2 {font-weight: 300;color: #2196F3;}
 
@@ -214,11 +219,16 @@ nav ul a {
 
 @media only screen and (max-width: 480px) {
     .text_h {
+        margin-top: 100px;
         padding: 4% 0;
-        font-size: 5em;
+        font-size: 3.5rem;
         font-weight: 100;
         color: white;
     }
+    .parallax-container {
+        max-height: 200px;
+    }
+
 }
 
 input, textarea {
@@ -226,7 +236,7 @@ input, textarea {
 }
 
 nav a.button-collapse {
-    left: -25px;
+    left: 5px;
 }
 
 .card-avatar .waves-effect {
@@ -257,7 +267,7 @@ nav a.button-collapse {
 }
 
 .parallax-container {
-    max-height: 400px;
+    max-height: 250px;
 }
 
 footer.page-footer {
