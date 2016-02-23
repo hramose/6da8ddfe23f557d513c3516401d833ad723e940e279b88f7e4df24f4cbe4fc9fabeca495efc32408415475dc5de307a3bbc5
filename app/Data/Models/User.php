@@ -33,4 +33,9 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      * @var array
      */
     protected $hidden = ['usr_password', 'remember_token'];
+
+    public function getFullName()
+    {
+        return 'Bienvenido '.$this->usr_firstName.' '.$this->usr_lastName;
+    }
 }
