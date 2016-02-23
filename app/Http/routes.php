@@ -44,9 +44,9 @@ Route::get('/oftalmorojas', function () {
     return view('oftalmorojas');
 });
 
-//panel de contro paciente
-Route::get('/pcpaciente', function () {
-    return view('pnlcntrlpcnte');
+//panel de control principal
+Route::get('/controlpanel', function () {
+    return view('controlpanel/pc_prncpl');
 });
 
 
