@@ -2,85 +2,51 @@
 <html>
 <head>
     <title>Telemedicina - @yield('title')</title>
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css" >
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link href="{{URL::asset('css/materialize.min.css')}}" type="text/css" rel="stylesheet" media="screen,projection"/>
-
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-            <!--script>
-              window.liveSettings = {
-                api_key: "a0b49b34b93844c38eaee15690d86413",
-                picker: "bottom-right",
-                detectlang: true,
-                dynamic: true,
-                autocollect: true
-              };
-            </script>
-            <script src="//cdn.transifex.com/live.js"></script-->
-</head>
-<body>
-<header>
-  <div class="navbar-fixed ">
     
-    <!-- Dropdown Structure -->
-    <ul id="tlmdcn" class="dropdown-content">
-      <li><a href="#!">Video conferencia</a></li>
-      <li><a href="#!">Historia Clinica</a></li>
-      <li class="divider"></li>
-      <li><a href="#!">Biblioteca especializada</a></li>
-    </ul>
+    <!--del index-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
 
-    <nav>
-      <div class="nav-wrapper default_color">
-        <!--a href="#!" class="brand-logo">Logo</a-->
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a class="dropdown-button" href="#" data-activates="tlmdcn">Telemedicina<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#">congreso<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#">Acerca de<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#">Login<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
-        <ul class="side-nav" id="mobile-demo">
-          <li><a class="dropdown-button" href="#">Telemedicina<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#">congreso<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" href="#">Acerca de<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a class="dropdown-button" ref="#">Login<i class="material-icons right">arrow_drop_down</i></a></li>
-        </ul>
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet" >
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" >
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+</head>
+<body id="top" class="scrollspy">
+ 
+ <!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+
+<!--Navigation-->
+<div class="navbar-fixed">
+  <nav id="nav_f" class="default_color" role="navigation">
+      <div class="container">
+          <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo"> logo</a>
+          <ul id="nav-mobile" class="right side-nav">
+              <li><a href="#intro">Service</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="" target="_blank">Download</a></li>
+          </ul>
+              <a href="#" data-activates="nav-mobile" class="button-collapse">
+                  <i class="mdi-navigation-menu"></i>
+              </a>
+          </div>
       </div>
-    </nav>
-  </div>
-</header>
-  <!--Contenido de las demas paginas-->
+  </nav>
+</div>
+
   <div>
      @yield('content')
   </div>
-    <!--div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-      <a class="btn-floating btn-large red">
-        <i class="material-icons">question_answer</i>
-      </a>
-      <ul>
-        <li><a style="transform: scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0px); opacity: 0;" class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-        <li><a style="transform: scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0px); opacity: 0;" class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-        <li><a style="transform: scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0px); opacity: 0;" class="btn-floating green"><i class="material-icons">publish</i></a></li>
-        <li><a style="transform: scaleY(0.4) scaleX(0.4) translateY(40px) translateX(0px); opacity: 0;" class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-      </ul>
-    </div-->
-
-
-  <div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; right: 24px;">
-        <a class="btn-floating btn-large red">
-            <i class="material-icons">question_answer</i>
-          </a>
-    <ul>
-      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-    </ul>
-  </div>
-        
-  <!--Fin de contenido-->
 
   <!--Footer-->
 <footer id="contact" class="page-footer default_color scrollspy">
@@ -151,19 +117,13 @@
         </div>
     </div>
 </footer>
+  <!--Contenido de las demas paginas-->
 
-   <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script gapi_processed="true" src="https://apis.google.com/js/platform.js" async="" defer=""></script>
-    <script>
-        $(".button-collapse").sideNav();      
-        $(".dropdown-button").dropdown(); 
-    </script>
-    <script src="{{URL::asset('js/jquery.timeago.min.js')}}"></script>
-    <script src="{{URL::asset('js/modernizr.js')}}"></script>
-    <script src="{{URL::asset('js/materialize.js')}}"></script>
-    <script src="{{URL::asset('js/init.js')}}"></script>
-    <script src="{{URL::asset('js/prism.js')}}"></script>
-    <!--script src="{{URL::asset('jade/lunr.min.js')}}"></script>
-    <script src="{{URL::asset('jade/search.js')}}"></script-->
-</body>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+    </body>
+</html>
