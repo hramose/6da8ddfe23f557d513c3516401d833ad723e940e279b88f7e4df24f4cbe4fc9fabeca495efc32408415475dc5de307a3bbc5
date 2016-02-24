@@ -26,7 +26,7 @@
 
 <!--Navigation-->
 <div class="navbar-fixed">
-  <nav id="nav_f" class="default_color" role="navigation">
+  <nav id="nav_f" class="blue" role="navigation">
       <div class="container">
           <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo"> logo</a>
           <ul id="nav-mobile" class="right side-nav">

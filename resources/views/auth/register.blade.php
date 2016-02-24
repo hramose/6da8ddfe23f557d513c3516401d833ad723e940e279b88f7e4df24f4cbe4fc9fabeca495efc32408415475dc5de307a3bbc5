@@ -28,7 +28,7 @@
                             <label class="col-md-4 control-label">Last Name</label>
 
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="lastname" value="{{ old('lastname') }}">
+                                <input type="text" class="form-control" name="usr_lastName" value="{{ old('usr_lastName') }}">
 
                                 @if ($errors->has('usr_lastName'))
                                     <span class="help-block">

@@ -32,11 +32,27 @@
 				<a class="navbar-brand" href="#"><span>Control</span>Panel</a>
 				<ul class="user-menu">
 					<li class="dropdown pull-right">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Usuario <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<svg class="glyph stroked male-user">
+							<use xlink:href="#stroked-male-user"></use>
+							</svg> 
+								<!-- Authentication Links -->
+			                    
+			                    @if (Auth::check())
+	                                {{ Auth::user()->getFullName() }}
+			                    @endif
+							<span class="caret">
+							</span>
+						</a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Perfil</a></li>
-							<li><a href="#"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"></use></svg> Configuracion</a></li>
-							<li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Salir</a></li>
+							@if (Auth::guest())
+			                        <li><a href="{{ url('/login') }}">Login</a></li>
+			                        <li><a href="{{ url('/register') }}">Register</a></li>
+		                    @else
+								<li><a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Perfil</a></li>
+								<li><a href="#"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"></use></svg> Configuracion</a></li>
+								<li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Salir</a></li>
+							@endif
 						</ul>
 					</li>
 				</ul>
@@ -322,12 +338,14 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Icons</li>
+				<!--li class="active">Icons</li-->
 			</ol>
 		</div><!--/.row-->
 		
 <!--cuerpo-->
-
+  <div>
+     @yield('content')
+  </div>
 <!--fincuerpo-->
 
 		</div><!--/.row-->

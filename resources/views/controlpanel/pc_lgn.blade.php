@@ -18,30 +18,35 @@
 
 <body>
 	
-	<div class="row">
-		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
-			<div class="login-panel panel panel-default">
+	<div class="row center-block ">
+		<div class="col-xs-12 col-sm-5 col-sm-offset-2 col-md-4 col-md-offset-4">
+			<div class="center login-panel panel panel-default">
 				<div class="panel-heading center-block">
 					<p class="center-block">Acceso al sistema</p>
 				</div>
 				<div class="panel-body">
 					<form role="form">
 						<fieldset>
-							<div class="form-group ">
-								<img src="img/ted.jpg" class='center-block' alt="">
+							<div class="form-group img-responsive">
+								<img src="img/img-user-300x300.jpg" class='center-block img-borderraius50 img-responsive' alt="">
 							</div>
 							<div class="form-group">
-								<input class="form-control" placeholder="E-mail" name="email" type="email" autofocus="">
+								<input class="form-control" placeholder="Nombre de usuario" name="email" type="email" autofocus="">
 							</div>
 							<div class="form-group">
-								<input class="form-control" placeholder="Password" name="password" type="password" value="">
+								<input class="form-control" placeholder="Contraseña" name="password" type="password" value="">
 							</div>
 							<div class="checkbox">
-								<label>
-									<input name="remember" type="checkbox" value="Remember Me">Remember Me
-								</label>
+								<a name="recovery" value="Remember Me">Recuperar contraseña
+								</a>
+								</br>
+								<a name="recovery" value="Remember Me">Crear  Nueva cuenta
+								</a>
 							</div>
-							<a href="index.html" class="btn btn-primary">Login</a>
+							<div class="center">
+								<a href="index.html" class="btn btn-primary">Ingresar</a>
+								<input type="reset" class="btn btn-teal" value="Limpiar">
+							</div>
 						</fieldset>
 					</form>
 				</div>
