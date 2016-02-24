@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'supermysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,13 +55,16 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'dbo_Test'),
+            'database'  => env('DB_DATABASE', 'dbo_redmedica'),
             'username'  => env('DB_USERNAME', 'Daigo'),
             'password'  => env('DB_PASSWORD', '@Ntko@10#'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
             'strict'    => false,
+            //'options'   => array(
+            //    PDO::ATTR_EMULATE_PREPARES => true,
+            //),
         ],
 
         'pgsql' => [
@@ -83,6 +86,21 @@ return [
             'password' => env('DB_PASSWORD', ''),
             'charset'  => 'utf8',
             'prefix'   => '',
+        ],
+
+        'supermysql' => [
+            'driver'    => 'mysql',
+            'host'      => env('DB_HOST', 'localhost'),
+            'database'  => env('DB_DATABASE', 'dbo_redmedica'),
+            'username'  => env('DB_USERNAME', 'root'),
+            'password'  => env('DB_PASSWORD', '@D41g0@10#'),
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+            //'options'   => array(
+            //    PDO::ATTR_EMULATE_PREPARES => true,
+            //),
         ],
 
     ],

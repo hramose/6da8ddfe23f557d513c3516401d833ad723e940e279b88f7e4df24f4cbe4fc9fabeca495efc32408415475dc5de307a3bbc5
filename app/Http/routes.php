@@ -49,7 +49,9 @@ Route::get('/controlpanel', function () {
     return view('controlpanel/pc_prncpl');
 });
 
-
+Route::get('/myhome', function () {
+    return view('old/home');
+});
 
 
 

@@ -1,0 +1,32 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateRolTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('tbl_rol', function (Blueprint $table) {
+            $table->increments('rol_intId');
+            $table->string('rol_strAbrebiatura', 3);
+            $table->string('rol_strNombre', 15);
+            $table->string('rol_strDescripcion', 100);
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('tbl_rol');
+    }
+}
