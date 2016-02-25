@@ -1228,8 +1228,8 @@ pre code {
 	overflow-y:scroll
 }
 .container {
-	padding-right:15px;
-	padding-left:15px;
+	padding-right:30px;
+	padding-left:30px;
 	margin-right:auto;
 	margin-left:auto
 }
@@ -5359,5 +5359,14 @@ br{
 }
 
 .justificado{
-	text-align: justify-all;
+	text-align: justify;
 }
+.txtgothic{
+	font-family: 'century gothic';
+}
+
+
+/*
+Google font para titulos estilo chicha
+*/
+

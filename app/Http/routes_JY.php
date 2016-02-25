@@ -66,12 +66,6 @@ Route::get('hello', function () {
     return view('hello', ['name' => 'Daigo']);
 });
 
-
-
-Route::get('/principal',function(){
-    return 'Bienvenido!';
-});
-
 Route::get('paginaprincipal', function () {
     return view('paginaprincipal', ['name' => 'Junior']);//retorna la vista vienvenido
 });

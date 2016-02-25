@@ -5,7 +5,7 @@ pc_bscrpcnt.blade.php@extends('layouts.pc_Master')<!--padre-->
 @section('content')
 <!--contenido del cuerpo aqui dentro-->
 <div class="row">
-	panel control 
+	panel control  buscar paciente
 </div>
 
 <!--fin contenido-->
