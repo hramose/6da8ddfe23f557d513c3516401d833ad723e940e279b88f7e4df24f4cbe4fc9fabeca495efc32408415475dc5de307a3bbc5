@@ -5332,6 +5332,8 @@ button.close {
 }
 
 
+
+
 /*
 imagenes redonderadas - estilos agregados
 */
@@ -5350,8 +5352,12 @@ a{
 	text-transform: uppercase;
 }
 .minusculas{
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 br{
 	margin: 10px;
+}
+
+.justificado{
+	text-align: justify-all;
 }

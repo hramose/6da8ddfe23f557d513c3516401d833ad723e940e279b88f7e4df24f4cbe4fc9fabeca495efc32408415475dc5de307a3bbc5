@@ -25,7 +25,7 @@
 					<p class="center-block">Acceso al sistema</p>
 				</div>
 				<div class="panel-body">
-					<form role="form">
+					<form role="form" action="post">
 						<fieldset>
 							<div class="form-group img-responsive">
 								<img src="img/img-user-300x300.jpg" class='center-block img-borderraius50 img-responsive' alt="">
@@ -36,16 +36,20 @@
 							<div class="form-group">
 								<input class="form-control" placeholder="Contraseña" name="password" type="password" value="">
 							</div>
-							<div class="checkbox">
-								<a name="recovery" value="Remember Me">Recuperar contraseña
-								</a>
-								</br>
-								<a name="recovery" value="Remember Me">Crear  Nueva cuenta
-								</a>
-							</div>
 							<div class="center">
-								<a href="index.html" class="btn btn-primary">Ingresar</a>
+								<a href="" class="btn btn-primary">Ingresar</a>
 								<input type="reset" class="btn btn-teal" value="Limpiar">
+							</div>
+							<div class="center form-group">
+								</br>
+								<div>
+									<a name="recoveryaccount" class="center" value="Recuperar mi Cuenta">Recuperar contraseña
+									</a>	
+								</div>
+								<div>
+									<a name="createaccount" class="center" value="Crear nueva mi cuenta">Crear  Nueva cuenta
+									</a>
+								</div>
 							</div>
 						</fieldset>
 					</form>
