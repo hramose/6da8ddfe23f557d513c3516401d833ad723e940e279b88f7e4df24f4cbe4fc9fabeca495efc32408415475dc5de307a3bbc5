@@ -3,6 +3,17 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(http://fonts.gstatic.com/s/materialicons/v12/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+
+/**/
+
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
 }
@@ -7522,10 +7533,10 @@ a {
 }
 
 html {
-  /*! line-height: 1.5; */
-  /*! font-family: "Roboto", sans-serif; */
-  /*! font-weight: normal; */
-  /*! color: rgba(0, 0, 0, 0.87); */
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 @media only screen and (min-width: 0) {
