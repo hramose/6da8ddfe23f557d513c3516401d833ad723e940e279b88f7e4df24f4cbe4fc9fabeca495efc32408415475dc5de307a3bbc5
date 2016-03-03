@@ -5,13 +5,17 @@
 @section('content')
 <!--contenido del cuerpo aqui dentro-->  
 <div class="tittle">
-	<h3 class="txtgothic">Este es el título</h3>
+	<h3 class="txtgothic">Un poco de Historia </h3>
 </div>
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-lg-12">
-    	<p class="justificado">
-    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nulla, corrupti ipsa rem deserunt pariatur, voluptatem quis porro velit ad, cupiditate accusamus autem recusandae minima voluptas exercitationem possimus magni eum!
-    		<blockquote> Esta es una cita Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, vel fugiat atque et, neque, quam conseca magni ratione doloremque nobis officia quo.</blockquote>
+    	<p>
+    		
+    		<p  class="justificado">el sistema de red de telemedicina oftalmologica diseñada con la finalidad de brindar un mejor servicio acorde a las tendecnias del presente siglo para la poblacion peruana, la medicina oftalmologica</p>
+    		<i><b>Sistema de red telemedica oftalmologica desarrollado por inicativa de la Oftalmologica del centro del Perú y bajo la financiacion del estado Peruano.</b></i>
+
+    		<blockquote class="justificado"> Esta plataforma ha sido desarrollada bajo el principio KISS (del ingles "Keep It Simple, Stupid")
+    		Hazlo sencillo, Estupido!!!</blockquote>
     	</p>
     </div>
 </div>
@@ -35,6 +39,5 @@
        <img class="img-responsive" width="auto" height="auto" src="img/tbbut.png" alt="">
 	</div>
 </div>
-
 <!--fin contenido-->
 @endsection

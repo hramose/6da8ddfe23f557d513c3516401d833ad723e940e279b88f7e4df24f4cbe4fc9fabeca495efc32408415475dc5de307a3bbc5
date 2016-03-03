@@ -17,12 +17,17 @@ p {
 }
 
 a, a:hover, a:focus {
-	color: #30a5ff;
+	color: #0690fa;
+}
+
+nav > li > a:hover {
+	color:#690fa;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #5f6468;
 }
+
 
 h1 {
 	font-weight: 300;
@@ -931,9 +936,57 @@ h1.page-header {
 
 
 
+/*media querys*/
+@media screen (max-width: 446px){
+    body{
+        background-color: red;
+    }
+
+	.container > .navbar-header{
+	
+	}
+	.completo{
+		margin-right: -50px;
+		margin-left: -50px;
+	}
+	.vdivisor{
+	height: 70px;
+	}
 
 
+}
+
+.vcenter{
+	display: inline-block;
+	vertical-align: middle;
+	float:none;
+}
+
+.vdivisor{
+	height: 60px;
+}
+
+.blur{
+	filter: blur(6px);
+	-webkit-filter: blur(7px);
+}
 
 
-
-
+.scroll {
+  width: 20px;
+  height: 200px;
+  overflow: auto;
+  float: left;
+  margin: 0 10px;
+}
+.scroll1::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+.scroll1::-webkit-scrollbar-track {
+  background: #ddd;
+}
+ 
+.scroll1::-webkit-scrollbar-thumb {
+  background: #666; 
+}
