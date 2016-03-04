@@ -48,10 +48,18 @@ Route::get('/oftalmorojas', function () {
 Route::get('/controlpanel', function () {
     return view('controlpanel/pc_prncpl');
 });
+//ppanel control chat con medico
+Route::get('/telehatmedico', function () {
+    return view('controlpanel/pc_tlchtcnmdc');
+});
+
 
 Route::get('/myhome', function () {
     return view('old/home');
 });
+
+
+
 
 
 
