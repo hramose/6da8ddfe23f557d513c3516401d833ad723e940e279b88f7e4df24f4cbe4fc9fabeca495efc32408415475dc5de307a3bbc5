@@ -155,14 +155,58 @@
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Buscar H.C.
+							</svg> Hitorias Clinicas
 						</a>
 					</li>
 					<li>
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Registrar H.C.
+							</svg> Triaje y datos clinicos
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Examen regional
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Procedimientos
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right"></use>
+							</svg> Diagnostico Presuntivo
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right"></use>
+							</svg> Diagnostico definitivo
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right"></use>
+							</svg> Servicios Auxiliares
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right"></use>
+							</svg> Receta Medica
 						</a>
 					</li>
 				</ul>

@@ -48,6 +48,12 @@ Route::get('/oftalmorojas', function () {
 Route::get('/controlpanel', function () {
     return view('controlpanel/pc_prncpl');
 });
+//panel de control principal
+Route::get('/buscarpaciente', function () {
+    return view('controlpanel/pc_bscrpcnt');
+});
+
+
 //ppanel control chat con medico
 Route::get('/telehatmedico', function () {
     return view('controlpanel/pc_tlchtcnmdc');
