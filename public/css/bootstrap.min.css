@@ -5412,6 +5412,12 @@ Separador vertical
 .sepvert{
 	height: 20px;
 }
+.tr-in{
+	width: 100%;
+	min-width: 15px;
+	padding: 3px;
+}
+
 
 @media screen and (max-width: 370px){
 	/*

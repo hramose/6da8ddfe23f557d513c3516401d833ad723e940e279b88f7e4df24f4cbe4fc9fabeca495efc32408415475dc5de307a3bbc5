@@ -487,7 +487,6 @@
 			<li role="presentation" class="divider"></li>
 			<li><a href="login.html"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Cerrar Sesion</a></li>
 		</ul>
-
 	</div><!--/.sidebar-->
 		
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
