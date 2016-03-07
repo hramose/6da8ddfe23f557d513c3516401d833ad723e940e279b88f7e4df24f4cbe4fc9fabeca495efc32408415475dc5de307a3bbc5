@@ -5404,3 +5404,20 @@ Google font para titulos estilo chicha
 		text-align: center;
 	}
 }
+
+
+/*
+Separador vertical
+*/
+.sepvert{
+	height: 20px;
+}
+
+@media screen and (max-width: 370px){
+	/*
+	Separador vertical
+	*/
+	.sepvert{
+		height: 30px;
+	}
+}

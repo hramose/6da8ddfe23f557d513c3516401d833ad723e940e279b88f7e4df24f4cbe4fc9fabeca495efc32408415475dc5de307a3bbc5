@@ -48,7 +48,6 @@ Route::get('/oftalmorojas', function () {
 Route::get('/controlprincipal', function () {
     return view('controlpanel/pc_prncpl');
 });
-//panel de control principal
 Route::get('/buscapaciente', function () {
     return view('controlpanel/Paciente/pc_bscrpcnt');
 });
@@ -63,6 +62,15 @@ Route::get('/telehatmedico', function () {
 });
 Route::get('/cplogin', function () {
     return view('controlpanel/pc_lgn');
+});
+
+
+//panel de control historia clinica
+Route::get('/historiaclinica', function () {
+    return view('controlpanel/HistoriasClinicas/pc_R_hstrclnc');
+});
+Route::get('/nuevahistoriaclinica', function () {
+    return view('controlpanel/HistoriasClinicas/pc_CR_hstrclnc');
 });
 
 

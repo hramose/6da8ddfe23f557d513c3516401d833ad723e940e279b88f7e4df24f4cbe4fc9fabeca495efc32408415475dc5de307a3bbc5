@@ -1,1 +1,1 @@
-pc_bbltcmdc.blade.php
+hole desde biblioteca

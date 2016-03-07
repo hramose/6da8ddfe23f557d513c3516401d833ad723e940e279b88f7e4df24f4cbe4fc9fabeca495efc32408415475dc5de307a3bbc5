@@ -10,7 +10,6 @@
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-lg-12">
     	<p>
-    		
     		<p  class="justificado">el sistema de red de telemedicina oftalmologica diseñada con la finalidad de brindar un mejor servicio acorde a las tendecnias del presente siglo para la poblacion peruana, la medicina oftalmologica</p>
     		<i><b>Sistema de red telemedica oftalmologica desarrollado por inicativa de la Oftalmologica del centro del Perú y bajo la financiacion del estado Peruano.</b></i>
 

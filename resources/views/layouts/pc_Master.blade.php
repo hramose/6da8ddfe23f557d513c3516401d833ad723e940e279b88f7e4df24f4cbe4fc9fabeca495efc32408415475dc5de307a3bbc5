@@ -7,6 +7,7 @@
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/datepicker3.css" rel="stylesheet">
+<link href="css/bootstrap-table.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
 
 <!--Icons-->
@@ -37,7 +38,6 @@
 							<use xlink:href="#stroked-male-user"></use>
 							</svg> 
 								<!-- Authentication Links -->
-			                    
 			                    @if (Auth::check())
 	                                {{ Auth::user()->getFullName() }}
 			                    @endif
@@ -154,7 +154,7 @@
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Hitorias Clinicas
+							</svg> Historia Clinica
 						</a>
 					</li>
 					<li>
@@ -184,14 +184,14 @@
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Diagnostico Presuntivo
+							</svg> Diagnóstico Presuntivo
 						</a>
 					</li>
 					<li>
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Diagnostico definitivo
+							</svg> Diagnostico Definitivo
 						</a>
 					</li>
 					<li>
@@ -205,7 +205,7 @@
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Receta Medica
+							</svg> Receta Médica
 						</a>
 					</li>
 				</ul>
@@ -217,21 +217,21 @@
 						<svg class="glyph stroked chevron-down">
 							<use xlink:href="#stroked-chevron-down"></use>
 						</svg>
-					</span> Asistencia Medica
+					</span> Asistencia Médica
 				</a>
 				<ul class="children collapse" id="sub-item-100">
 					<li>
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Envio de ambulancias
+							</svg> Envio de Ambulancias
 						</a>
 					</li>
 					<li>
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Control y seguimiento
+							</svg> Control y Seguimiento
 						</a>
 					</li>
 					<li>
@@ -239,7 +239,7 @@
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right">
 								</use>
-							</svg> Comunicacion de entidad
+							</svg> Comunicación de Entidad
 						</a>
 					</li>
 					<li>
@@ -247,7 +247,7 @@
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right">
 								</use>
-							</svg> Comunicacion Paciente
+							</svg> Comunicación Paciente
 						</a>
 					</li>
 					<li>
@@ -255,7 +255,7 @@
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right">
 								</use>
-							</svg> Primeros Auxilios
+							</svg> Priméros Auxílios
 						</a>
 					</li>
 					<li>
@@ -273,7 +273,7 @@
 				<a href="#">
 					<span data-toggle="collapse" href="#sub-item-4">
 						<svg class="glyph stroked open folder"><use xlink:href="#stroked-open-folder"/></svg>
-					</span> Biblioteca Medica 
+					</span> Bibliotéca Médica 
 				</a>
 				<ul class="children collapse" id="sub-item-4">
 					<li>
@@ -289,7 +289,7 @@
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right">
 								</use>
-							</svg> Diag. especializado
+							</svg> Diag. Especializado
 						</a>
 					</li>
 					<li>
@@ -491,11 +491,7 @@
 	</div><!--/.sidebar-->
 		
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
-		<div class="row">
-			<ol class="breadcrumb">
-				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<!--li class="active">Icons</li-->
-			</ol>
+		<div class="sepvert">
 		</div><!--/.row-->
 		
 <!--cuerpo-->
@@ -504,7 +500,7 @@
   </div>
 <!--fincuerpo-->
 
-		</div><!--/.row-->
+	</div><!--/.row-->
 	</div>	<!--/.main-->
 
 	<script src="js/jquery-1.11.1.min.js"></script>
@@ -514,6 +510,7 @@
 	<script src="js/easypiechart.js"></script>
 	<script src="js/easypiechart-data.js"></script>
 	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/bootstrap-table.js"></script>
 	<script>
 		$('#calendar').datepicker({
 		});
