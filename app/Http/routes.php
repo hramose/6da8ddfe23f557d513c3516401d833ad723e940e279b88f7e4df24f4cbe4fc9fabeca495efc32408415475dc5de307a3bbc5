@@ -45,12 +45,15 @@ Route::get('/oftalmorojas', function () {
 });
 
 //panel de control principal
-Route::get('/controlpanel', function () {
+Route::get('/controlprincipal', function () {
     return view('controlpanel/pc_prncpl');
 });
 //panel de control principal
-Route::get('/buscarpaciente', function () {
-    return view('controlpanel/pc_bscrpcnt');
+Route::get('/buscapaciente', function () {
+    return view('controlpanel/Paciente/pc_bscrpcnt');
+});
+Route::get('/telechat', function () {
+    return view('controlpanel/pc_tlcht');
 });
 
 
@@ -58,13 +61,23 @@ Route::get('/buscarpaciente', function () {
 Route::get('/telehatmedico', function () {
     return view('controlpanel/pc_tlchtcnmdc');
 });
-
-
-Route::get('/myhome', function () {
-    return view('old/home');
+Route::get('/cplogin', function () {
+    return view('controlpanel/pc_lgn');
 });
 
 
+//ppanel control biblioteca medica
+Route::get('/biblioteca', function () {
+    return view('controlpanel/BibliotecaMedica/pc_bbltcmdc');
+});
+
+
+
+
+//old dentro de old
+Route::get('/myhome', function () {
+    return view('old/home');
+});
 
 
 

@@ -105,8 +105,8 @@
 			<li class="parent ">
 				<a href="#">
 					<span data-toggle="collapse" href="#sub-item-7">
-						<svg class="glyph stroked chevron-down">
-							<use xlink:href="#stroked-chevron-down"></use>
+						<svg class="glyph stroked male user ">
+							<use xlink:href="#stroked-male-user"/>
 						</svg>
 					</span> Medico
 				</a>
@@ -145,8 +145,7 @@
 			<li class="parent ">
 				<a href="#">
 					<span data-toggle="collapse" href="#sub-item-6">
-						<svg class="glyph stroked chevron-down">
-							<use xlink:href="#stroked-chevron-down"></use>
+						<svg class="glyph stroked open folder"><use xlink:href="#stroked-open-folder"/>
 						</svg>
 					</span> Historias Clinicas
 				</a>
@@ -211,13 +210,69 @@
 					</li>
 				</ul>
 			</li>
+			<!--Historias Clinicas-->
+			<li class="parent ">
+				<a href="#">
+					<span data-toggle="collapse" href="#sub-item-100">
+						<svg class="glyph stroked chevron-down">
+							<use xlink:href="#stroked-chevron-down"></use>
+						</svg>
+					</span> Asistencia Medica
+				</a>
+				<ul class="children collapse" id="sub-item-100">
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right"></use>
+							</svg> Envio de ambulancias
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right"></use>
+							</svg> Control y seguimiento
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Comunicacion de entidad
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Comunicacion Paciente
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Primeros Auxilios
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Emergencia/Urgencia
+						</a>
+					</li>
+				</ul>
+			</li>
 			<!--Biblioteca Medica-->
 			<li class="parent ">
 				<a href="#">
 					<span data-toggle="collapse" href="#sub-item-4">
-						<svg class="glyph stroked chevron-down">
-							<use xlink:href="#stroked-chevron-down"></use>
-						</svg>
+						<svg class="glyph stroked open folder"><use xlink:href="#stroked-open-folder"/></svg>
 					</span> Biblioteca Medica 
 				</a>
 				<ul class="children collapse" id="sub-item-4">
@@ -234,23 +289,80 @@
 							<svg class="glyph stroked chevron-right">
 								<use xlink:href="#stroked-chevron-right">
 								</use>
-							</svg> Registrar Biblioteca
+							</svg> Diag. especializado
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked clipboard with paper"><use xlink:href="#stroked-clipboard-with-paper"/>
+							</svg> Protocolos medicos
 						</a>
 					</li>
 					<li>
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
-								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Actualizar Biblioteca
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Guias medicas
 						</a>
 					</li>
 					<li>
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right">
-								<use xlink:href="#stroked-chevron-right"></use>
-							</svg> Eliminar  Biblioteca
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Guias de salud
 						</a>
 					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Manuales Clinicos
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Posologia Farmaceutica
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Libros especializados
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Publicaciones medicas
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right">
+								<use xlink:href="#stroked-chevron-right">
+								</use>
+							</svg> Investigaciones
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked video">
+								<use xlink:href="#stroked-video"/>
+								</use>
+							</svg> Videos seleccionados
+						</a>
+					</li>
+
 				</ul>
 			</li>
 			<!--Protocolo-->
