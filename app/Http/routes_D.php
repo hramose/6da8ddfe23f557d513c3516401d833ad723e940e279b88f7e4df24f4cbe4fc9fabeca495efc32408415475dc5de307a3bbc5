@@ -18,52 +18,83 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
+//Route::get('/', 'RolController@getIndex');
+=======
+Route::get('welcome', function () {
+    return view('welcome');
+});
+
 //streaming
-Route::get('/streaming', function () {
-    return view('streaming');
+Route::get('streaming', function () {
+    return view('pnlcntrlstreaming');
 });
 //login
-/*Route::get('/mylogin', function () {
+Route::get('/mylogin', function () {
     return view('login');
-});*/
+});
 
 //loginojos
 Route::get('/ojoslogin', function () {
     return view('ojoslogin');
 });
+Route::get('/registrar', function () {
+    return view('formregistrar');
+});
 
-// auth controller
-Route::get('mylogin', 'CustomAuthController@getLogin');   
-Route::post('mylogin', 'CustomAuthController@postLogin');  
+//panel de contrrol sorganizacion
+Route::get('/oftalmorojas', function () {
+    return view('oftalmorojas');
+});
 
-Route::post('login', 'Auth/AuthController@authenticate');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//panel de control principal
+Route::get('/controlprincipal', function () {
+    return view('controlpanel/pc_prncpl');
+});
+Route::get('/buscapaciente', function () {
+    return view('controlpanel/Paciente/pc_bscrpcnt');
+});
+Route::get('/telechat', function () {
+    return view('controlpanel/pc_tlcht');
+});
 
 
+//ppanel control chat con medico
+Route::get('/telehatmedico', function () {
+    return view('controlpanel/pc_tlchtcnmdc');
+});
+Route::get('/cplogin', function () {
+    return view('controlpanel/pc_lgn');
+});
+
+
+//panel de control historia clinica
+Route::get('/historiaclinica', function () {
+    return view('controlpanel/HistoriasClinicas/pc_R_hstrclnc');
+});
+Route::get('/nuevahistoriaclinica', function () {
+    return view('controlpanel/HistoriasClinicas/pc_CR_hstrclnc');
+});
+
+
+//ppanel control biblioteca medica
+Route::get('/biblioteca', function () {
+    return view('controlpanel/BibliotecaMedica/pc_bbltcmdc');
+});
+
+
+
+
+//old dentro de old
+Route::get('/myhome', function () {
+    return view('old/home');
+});
 
 
 
 
 
 
-
-
-//----------------------
-// Test routes
 Route::get('/helloworld',function(){
     return 'Hello World!';
 });
@@ -92,6 +123,7 @@ Route::get('helloCon', 'Hello@index');
 
 Route::get('/helloCon/{name}', 'Hello@show');
 
+>>>>>>> origin/master
 
 /*
 |--------------------------------------------------------------------------
@@ -105,7 +137,8 @@ Route::get('/helloCon/{name}', 'Hello@show');
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    Route::controller('rols', 'RolController');
+    Route::controller('permits', 'PermitController');
 });
 
 Route::group(['middleware' => 'web'], function () {

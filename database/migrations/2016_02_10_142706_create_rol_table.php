@@ -14,7 +14,7 @@ class CreateRolTable extends Migration
     {
         Schema::create('tbl_rol', function (Blueprint $table) {
             $table->increments('rol_intId');
-            $table->string('rol_strAbrebiatura', 3);
+            $table->string('rol_strAbrebiatura', 4);
             $table->string('rol_strNombre', 15);
             $table->string('rol_strDescripcion', 100);
         });

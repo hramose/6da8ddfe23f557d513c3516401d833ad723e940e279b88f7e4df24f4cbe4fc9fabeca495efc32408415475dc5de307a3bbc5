@@ -30,6 +30,10 @@ class CreateLogdetailTable extends Migration
      */
     public function down()
     {
-        Schema::drop('tbl_log');
+        Schema::table('tbl_logDetalle', function ($table) {
+            $table->dropForeign(['log_intid']);
+        });
+        
+        Schema::drop('tbl_logDetalle');
     }
 }

@@ -12,31 +12,31 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('tbl_users')->delete();
+        //DB::table('tbl_users')->delete();
 
-    	User::create(array(
-	        'usr_firstName'	=> 'Daigo',
-	        'usr_lastName'	=> 'Fernandez',
-	        'username'	=> 'dfernandez',
-	        'email'    	=> 'dfernandez@digitalgames.tk',
-	        'password' 	=> bcrypt('@Daigo@10#'), //Hash::make
-    	));
+      	User::create(array(
+  	        'usr_firstName'	=> 'Daigo',
+  	        'usr_lastName'	=> 'Fernandez',
+  	        'username'	=> 'dfernandez',
+  	        'email'    	=> 'dfernandez@digitalgames.tk',
+  	        'password' 	=> bcrypt('@Daigo@10#'), //Hash::make
+      	));
 
-    	User::create(array(
-	        'usr_firstName'	=> 'Junior',
-	        'usr_lastName'	=> 'Yauricasa',
-	        'username'	=> 'jyauricasa',
-	        'email'    	=> 'jyauricasa@digitalgames.tk',
-	        'password' 	=> bcrypt('@Junior@10#'), //Hash::make
-    	));
+      	User::create(array(
+  	        'usr_firstName'	=> 'Junior',
+  	        'usr_lastName'	=> 'Yauricasa',
+  	        'username'	=> 'jyauricasa',
+  	        'email'    	=> 'jyauricasa@digitalgames.tk',
+  	        'password' 	=> bcrypt('@Junior@10#'), //Hash::make
+      	));
 
-    	User::create(array(
-	        'usr_firstName'	=> 'Galia',
-	        'usr_lastName'	=> 'Camayo',
-	        'username'	=> 'gcamayo',
-	        'email'    	=> 'gcamayo@digitalgames.tk',
-	        'password' 	=> bcrypt('@Galia@10#'), //Hash::make
-    	));
+      	User::create(array(
+  	        'usr_firstName'	=> 'Galia',
+  	        'usr_lastName'	=> 'Camayo',
+  	        'username'	=> 'gcamayo',
+  	        'email'    	=> 'gcamayo@digitalgames.tk',
+  	        'password' 	=> bcrypt('@Galia@10#'), //Hash::make
+      	));
 
     	/*
 		DB::table('articles')->truncate();

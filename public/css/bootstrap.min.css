@@ -848,7 +848,7 @@ html {
 }
 body {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size:14px;
+	font-size:13px;
 	line-height:1.42857143;
 	color:#333;
 	background-color:#fff
@@ -1453,7 +1453,7 @@ pre code {
 		width:83.33333333%
 	}
 	.col-sm-9 {
-		width:75%
+		width:76%;
 	}
 	.col-sm-8 {
 		width:66.66666667%
@@ -1471,7 +1471,7 @@ pre code {
 		width:33.33333333%
 	}
 	.col-sm-3 {
-		width:25%
+		width:24%;
 	}
 	.col-sm-2 {
 		width:16.66666667%
@@ -1585,7 +1585,7 @@ pre code {
 		margin-left:33.33333333%
 	}
 	.col-sm-offset-3 {
-		margin-left:25%
+		margin-left:24%;
 	}
 	.col-sm-offset-2 {
 		margin-left:16.66666667%
@@ -5402,5 +5402,28 @@ Google font para titulos estilo chicha
 	}
 	h3{
 		text-align: center;
+	}
+}
+
+
+/*
+Separador vertical
+*/
+.sepvert{
+	height: 20px;
+}
+.tr-in{
+	width: 100%;
+	min-width: 15px;
+	padding: 3px;
+}
+
+
+@media screen and (max-width: 370px){
+	/*
+	Separador vertical
+	*/
+	.sepvert{
+		height: 30px;
 	}
 }

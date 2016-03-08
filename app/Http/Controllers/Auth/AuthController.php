@@ -28,7 +28,7 @@ class AuthController extends Controller
      *
      * @var string
      */
-    protected $redirectPath = '/myhome';
+    protected $redirectPath = '/home';
     //protected $redirectAfterLogout = "/home";
     protected $maxLoginAttempts = 5;
     protected $username = 'username';
@@ -66,10 +66,8 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'usr_firstName' => 'required|max:32',
-            'usr_lastName' => 'required|max:32',
-            'username' => 'required|max:10|unique:tbl_users',
-            'email' => 'required|email|max:256|unique:tbl_users',
+            'username' => 'required|max:32|unique:tbl_usuario',
+            'email' => 'required|email|max:256|unique:tbl_usuario',
             'password' => 'required|confirmed|min:6',
         ]);
     }
@@ -83,9 +81,7 @@ class AuthController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'usr_firstName' => $data['usr_firstName'],
-            'usr_lastName' => $data['usr_lastName'],
-            'username' => $data['username'],
+            'username' => $data['username'], // form post controls' name
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
