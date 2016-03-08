@@ -16,6 +16,7 @@ class CreateLogTable extends Migration
             $table->increments('log_intId');
             $table->string('log_strNombreTabla', 25);
             $table->integer('log_intIdTabla')->unsigned();
+            $table->integer('log_intIdTablaOpc')->unsigned()->nullable();
             $table->dateTime('log_dtmCreatedAt');
             $table->integer('usr_intId')->unsigned();
 
@@ -29,7 +30,11 @@ class CreateLogTable extends Migration
      * @return void
      */
     public function down()
-    {
+    {        
+        Schema::table('tbl_log', function ($table) {
+            $table->dropForeign(['usr_intid']);
+        });
+        
         Schema::drop('tbl_log');
     }
 }

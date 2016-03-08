@@ -14,8 +14,8 @@ class CreatePermitTable extends Migration
     {
         Schema::create('tbl_permiso', function (Blueprint $table) {
             $table->increments('per_intId');
-            $table->string('per_strAbrebiatura', 3);
-            $table->string('per_strNombre', 15);
+            $table->string('per_strAbrebiatura', 7);
+            $table->string('per_strNombre', 40);
             $table->string('per_strDescripcion', 100);
         });
     }

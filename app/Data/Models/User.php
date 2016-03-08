@@ -11,31 +11,32 @@ use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 class User extends Model implements AuthenticatableContract, CanResetPasswordContract
 {
     use Authenticatable, CanResetPassword;
+
     /**
      * The table associated with the model.
      *
      * @var string
      */
-    protected $table = 'tbl_users';
+    protected $table = 'tbl_usuario';
 
-    protected $primaryKey = 'usr_id';
+    protected $primaryKey = 'usr_intId';
 
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
-    protected $fillable = ['usr_firstName', 'usr_lastName', 'username', 'email', 'password'];
+    protected $fillable = ['username', 'email', 'password', 'prs_intId', 'rol_intId'];
 
     /**
      * The attributes excluded from the model's JSON form.
      *
      * @var array
      */
-    protected $hidden = ['usr_password', 'remember_token'];
+    protected $hidden = ['password', 'remember_token'];
 
     public function getFullName()
     {
-        return 'Bienvenido '.$this->usr_firstName.' '.$this->usr_lastName;
+        return 'Bienvenido '.$this->username;
     }
 }
