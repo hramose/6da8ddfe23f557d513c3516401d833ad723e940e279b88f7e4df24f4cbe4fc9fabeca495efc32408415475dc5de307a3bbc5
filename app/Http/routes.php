@@ -52,6 +52,14 @@ Route::get('/controlpanel', function () {
 Route::get('/buscarpaciente', function () {
     return view('controlpanel/pc_bscrpcnt');
 });
+//panel de control principal
+Route::get('/registrarmedico', function () {
+    return view('controlpanel/pc_rgstrrmdc');
+});
+//panel de control principal
+Route::get('/registrarpaciente', function () {
+    return view('controlpanel/pc_rgstrrpcnt');
+});
 
 
 //ppanel control chat con medico
@@ -63,6 +71,12 @@ Route::get('/telehatmedico', function () {
 Route::get('/myhome', function () {
     return view('old/home');
 });
+//panel de control principal - medico
+//panel de control principal
+Route::get('/registrarmedico', function () {
+    return view('controlpanel/pc_rgstrrmdc');
+});
+
 
 
 
