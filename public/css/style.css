@@ -273,3 +273,8 @@ nav a.button-collapse {
 footer.page-footer {
     margin-top: 0px !important;
 }
+
+.justificado{
+    text-align: justify;
+}
+

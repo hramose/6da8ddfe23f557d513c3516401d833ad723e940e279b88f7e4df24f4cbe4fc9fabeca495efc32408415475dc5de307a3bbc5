@@ -848,7 +848,7 @@ html {
 }
 body {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size:13px;
+	font-size:14px;
 	line-height:1.42857143;
 	color:#333;
 	background-color:#fff
@@ -1244,13 +1244,6 @@ pre code {
 			margin-left:-50px;
 			}	
 }
-@media (max-width:371px){
-  .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-				margin-right: -15px;
-				margin-left: -15px;
-				margin-bottom: 15px;
-		}
-}
 @media (min-width:768px) {
 	.container {
 		width:750px
@@ -1453,7 +1446,7 @@ pre code {
 		width:83.33333333%
 	}
 	.col-sm-9 {
-		width:76%;
+		width:75%
 	}
 	.col-sm-8 {
 		width:66.66666667%
@@ -1471,7 +1464,7 @@ pre code {
 		width:33.33333333%
 	}
 	.col-sm-3 {
-		width:24%;
+		width:25%
 	}
 	.col-sm-2 {
 		width:16.66666667%
@@ -1585,7 +1578,7 @@ pre code {
 		margin-left:33.33333333%
 	}
 	.col-sm-offset-3 {
-		margin-left:24%;
+		margin-left:25%
 	}
 	.col-sm-offset-2 {
 		margin-left:16.66666667%
@@ -3274,8 +3267,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 .container>.navbar-header,.container-fluid>.navbar-header,.container>.navbar-collapse,.container-fluid>.navbar-collapse {
 	margin-right:-15px;
-	margin-left:-15px;
-	/*! margin-bottom: 15pxs; */
+	margin-left:-15px
 }
 @media (min-width:768px) {
 	.container>.navbar-header,.container-fluid>.navbar-header,.container>.navbar-collapse,.container-fluid>.navbar-collapse {
@@ -3320,7 +3312,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 	height:50px;
 	padding:15px 15px;
 	font-size:18px;
-	line-height:20px;
+	line-height:20px
 }
 .navbar-brand:hover,.navbar-brand:focus {
 	text-decoration:none
@@ -5398,32 +5390,9 @@ Google font para titulos estilo chicha
 		transition: .5s;
 	}
 	.container{
-		width: 100%;
+		width: 80%
 	}
 	h3{
 		text-align: center;
-	}
-}
-
-
-/*
-Separador vertical
-*/
-.sepvert{
-	height: 20px;
-}
-.tr-in{
-	width: 100%;
-	min-width: 15px;
-	padding: 3px;
-}
-
-
-@media screen and (max-width: 370px){
-	/*
-	Separador vertical
-	*/
-	.sepvert{
-		height: 30px;
 	}
 }
